@@ -12,7 +12,7 @@ if (navigator.geolocation){
            long = position.coords.longitude;
            lat = position.coords.latitude;
            
-           const proxy = "https://cors-anywhere.herokuapp.com/";
+           const proxy = " https://secret-ocean-49799.herokuapp.com/";
            const api = `${proxy}https://api.darksky.net/forecast/fd9d9c6418c23d94745b836767721ad1/${lat},${long}`;
       
            fetch(api)
